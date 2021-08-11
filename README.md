@@ -16,3 +16,15 @@ ip addr
 ```
 In our case, we are going to use the wlan0 inet.
 
+### Installation
+
+```sh
+sudo apt install bind9
+```
+We can then check if Bind9 is install with this command:
+```sh
+named -v
+```
+We should be able to see the server's name and the release status.
+
+
