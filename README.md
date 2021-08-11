@@ -16,6 +16,11 @@ ip addr
 ```
 In our case, we are going to use the wlan0 inet.
 
+Next, check the computer's name and other useful informations:
+```sh
+hostnamectl status
+```
+
 ### Installation
 
 ```sh
@@ -26,5 +31,8 @@ We can then check if Bind9 is install with this command:
 named -v
 ```
 We should be able to see the server's name and the release status.
+
+Now if we go to `/etc/bind`, we can see a couple of files that are going to be useful for configurating a DNS.
+
 
 
