@@ -34,5 +34,8 @@ We should be able to see the server's name and the release status.
 
 Now if we go to `/etc/bind`, we can see a couple of files that are going to be useful for configurating a DNS.
 
+### Hosts file
+
+
 
 
