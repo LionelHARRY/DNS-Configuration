@@ -8,7 +8,7 @@ BIND is a suite of software for interacting with the Domain Name System. Its mos
 
 ## Configuration
 
-### But first...
+### But first ...
 
 Whe can start by checking the IP address of the machine we are using. With Ubuntu, we can symply use this command : 
 ```sh
