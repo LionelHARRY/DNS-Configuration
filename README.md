@@ -42,5 +42,16 @@ This file translates hostnames to IP addresses. It is located in the `/etc`. The
 
 Whenever you type an address, your system will check the hosts file for its presence; if it is present there, you will be directed to the corresponding IP. If the hostname is not defined in the hosts file, your system will check the DNS server of your internet to look up for the corresponding IP and redirect you accordingly.
 
+We need to edit the default part and add a domain name. Here is an example:
+
+```sh
+127.0.0.1       localhost
+127.0.1.1       host-name.mydomain host-name
+192.xxx.x.xx    host-name.mydomain host-name
+```
+
+`192.xxx.x.xx` is the IP address we retrieved moments ago.
+
+### Bind
 
 
